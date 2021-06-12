@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--UATSpace page
+written by: LaTia Kirkland
+latiakirkland0@gmail.com
+20May2021-->
+<!--Tia's Casino
+Have you ever been to a casino were you have lost all you money.You started off excited and went home upset after playing the games. Then come to Tia's casino where the floor is
+hot and everyone is a winner. You would not believe how hot our tables are and also the craps table. My craps game will have you excited when you leave and you will not believe
+your eyes once you win. So give us a try and it will change your life at Tia's Casino!!!
+Cant Wait For You To Try!!
+
+-->
+<html>
+
+</html>
+<title> 
+    LaTia Kirkland's UATSpace Page 
+    
+</title>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="Code.js"></script>
+    
+      </head>
+
+<body>
+    <!--making a table to hold h1 title and jpg-->
+ <table>
+        <td> 
+            <img src="UATspaceLogo-2 (2).jpg">
+            </td>
+            <td><h1>
+        UAT Space Program
+    </h1></td>
+</table>
+<table border="2" width="70%">
+    <col style="width: 35%;">
+    <col style="width: 35%;">
+    <thead>
+        <th>Data Type</th>
+        <th>Reading</th>
+    </thead>
+    <tbody> <!--each line represents what was tested and the time elapsed-->
+        <tr id="seconds"><td>Time Elapsed</td><td>15 Seconds</td></tr>
+        <tr><td>Latitude</td><td>0</td></tr>
+        <tr><td>Longitude</td><td>0</td></tr>
+        <tr><td>GPS Altitude</td><td>0</td></tr>
+        <tr><td>BMP Sensor Altitude</td><td>30383.04</td></tr>
+        <tr><td>BMP Sensor Pressure</td><td>2.34</td></tr>
+        <tr><td>BMP Sensor Temperature</td><td>0</td></tr>
+        <tr><td>Digital Sensor Temperature</td><td>24.12</td></tr>
+        <tr><td>CSS Sensor Temperature</td><td>25</td></tr>
+        <tr><td>CSS Sensor eC02</td><td>400</td></tr>
+        <tr><td>CSS Sensor TVOC</td><td>0</td></tr>
+        <tr><td>UV</td><td>0</td></tr>
+        <tr><td>Accel X</td><td>-0.87</td></tr>
+        <tr><td>Accel Y</td><td>-0.02</td></tr>
+        <tr><td>Accel Z</td><td>9.61</td></tr>
+        <tr><td>Magnetic X</td><td>0.13</td></tr>
+        <tr><td>Magnetic y</td><td>0.57</td></tr>
+        <tr><td>Magnetic Z</td><td>-0.24</td></tr>
+        <tr><td>Gyro X</td><td>4.66</td></tr>
+        <tr><td>Gyro Y</td><td>0.01</td></tr>
+        <tr><td>Gyro Z</td><td>-0.4</td></tr>
+        <!--end of the test showing above protaining the type and time elapsed-->
+    </tbody>
+</table>
+   <br>
+    <p id="countdownTimer">Countdown Status...</p>
+    <button class="button" id="startButton"onclick="start();">Start</button>
+    <button class="button" id="stopButton" onclick="stop()">Stop</button>
+    <br>
+    <br>
+    <button class="button" onclick="playStation()";>Play Sound</button><br>
+    <script>
+//we do not need alert anymore
+//alert(" Test of the Alert funcation");
+    </script>
+
+    <!--Space for the craps game-->
+    <br>
+    <br>
+    <div id="die1Results">die1 status...</div><br>
+    <div id="die2Results">die2 status...</div><br>
+    <div id="sumResults">sum status...</div><br>
+    <div id="crapsResults">Craps game status...</div><br>
+    <button onclick="playCraps();">Play Craps</button>
+    </p>
+</body>
+
+</html>
